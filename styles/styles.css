@@ -3,12 +3,12 @@
   }
 
 head {
-	background-color: darkgreen;
+	background-color: rgb(40, 10, 80);
 }
 
 body {
 	/*margin: 0px 10%;*/
-	background-color: rgb(140, 178, 154);
+	background-color: rgb(255, 255, 255);
 }
 
 .heading {
@@ -57,29 +57,29 @@ body {
 p {
 	font-size: 3vw;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: rgb(238, 253, 233);
-	text-shadow: 1px 1px 2px darkgreen;
+	color: rgb(255, 120, 218);
+	text-shadow: 1px 1px 2px rgb(158, 0, 116);
 }
 
 h1 {
-	font-size:6vw;
+	font-size:5vw;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: rgb(238, 253, 233);
-	text-shadow: 1px 1px 2px darkgreen;
+	color: rgb(255, 120, 218);
+	text-shadow: 1px 1px 2px rgb(158, 0, 116);
 }
 
 h2 {
-	font-size: 4vw;
+	font-size:3vw;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: rgb(238, 253, 233);
-	text-shadow: 1px 1px 2px darkgreen;
+	color: rgb(61, 20, 114);
+	text-shadow: 1px 1px 2px rgb(40, 10, 80);
 }
 
 h3 {
-	font-size: 3.5vw;
+	font-size: 3vw;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: rgb(238, 253, 233);
-	text-shadow: 1px 1px 2px darkgreen;
+	color: rgb(61, 20, 114);
+	text-shadow: 1px 1px 2px rgb(40, 10, 80);
 }
 
 h4 {
@@ -101,7 +101,7 @@ img {
 
 a:link, a:visited {
 	text-decoration: none;
-	background-color: rgb(48,176,82);
+	background-color: rgb(255, 120, 218);
 	color: white;
 	font-size: 2.75vw;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -116,7 +116,7 @@ a:link, a:visited {
 }
 
 a:hover {
-	background-color: rgb(32,135,60);
+	background-color: rgb(158, 0, 116);
 	box-shadow: 1px 1px 2px black;
 }
 
@@ -126,7 +126,7 @@ a:active {
 
 /* Style The Dropdown Button */
 .dropbutton {
-	background-color: rgb(48,176,82);
+	background-color: rgb(158, 0, 116);
 	color: white;
 	padding: 16px;
 	font-size: 16px;

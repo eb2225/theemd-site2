@@ -29,11 +29,29 @@ body {
 	clear: both;
 }
 
+.spacer {
+	width: 100%;
+	padding: auto;
+	margin: 100px;
+}
+
+.section-container {
+	width: 90%;
+	margin: auto;
+}
+
+.cards-container {
+	width: 100%;
+	display: grid;
+	margin-top: var(--dl-space-space-twounits);
+	grid-template-columns: 1fr 1fr 1fr;
+  }
+
 h1 {
 	font-size:5vw;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: rgb(61, 20, 114);
-	text-shadow: 1px 1px 2px rgb(40, 10, 80);
+	color: rgb(255, 120, 218);
+	text-shadow: 1px 1px 2px rgb(158, 0, 116);
 }
 
 h2 {
@@ -46,7 +64,7 @@ h2 {
 h3 {
 	font-size: 3vw;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: rgb(40, 10, 80);
+	color: rgb(61, 20, 114);
 	text-shadow: 1px 1px 2px rgb(40, 10, 80);
 }
 
@@ -64,7 +82,7 @@ a:link, a:visited {
 	text-decoration: none;
 	background-color: rgb(255, 120, 218);
 	color: white;
-	font-size: 2.75vw;
+	font-size: 2vw;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-weight: bold;
 	width: 80%;
