@@ -80,6 +80,7 @@ img {
 
 a:link, a:visited {
 	text-decoration: none;
+	text-align: center;
 	background-color: rgb(255, 120, 218);
 	color: white;
 	font-size: 2vw;
